@@ -60,7 +60,7 @@ The **University Event Management System** is a web application designed to stre
 
 - [Docker](https://docs.docker.com/get-docker/) & [Docker Compose](https://docs.docker.com/compose/install/)
 - [Node.js](https://nodejs.org/) (v18+) — for local frontend development
-- [Python](https://www.python.org/) (3.11+) — for local backend development
+- [Python](https://www.python.org/) (3.12+) & [Poetry](https://python-poetry.org/) — for local backend development
 
 ### Quick Start with Docker
 
@@ -85,21 +85,17 @@ docker-compose up --build
 ```bash
 cd backend
 
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
 # Install dependencies
-pip install -r requirements.txt
+poetry install
 
 # Run migrations
-python manage.py migrate
+poetry run python manage.py migrate
 
 # Create superuser
-python manage.py createsuperuser
+poetry run python manage.py createsuperuser
 
 # Start server
-python manage.py runserver
+poetry run python manage.py runserver
 ```
 
 #### Frontend (React)
@@ -129,7 +125,8 @@ university-event-management/
 │   │   ├── registrations/      # Event registration logic
 │   │   ├── notifications/      # Notification system
 │   │   └── feedback/           # Ratings & comments
-│   ├── requirements.txt
+│   ├── pyproject.toml
+│   ├── poetry.lock
 │   └── manage.py
 │
 ├── frontend/                   # React frontend
