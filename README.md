@@ -4,6 +4,7 @@
   <img src="https://img.shields.io/badge/Django-5.x-092E20?style=for-the-badge&logo=django&logoColor=white" />
   <img src="https://img.shields.io/badge/PostgreSQL-16-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-24.x-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Terraform-1.x-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" />
 </p>
 
 <h1 align="center">🎓 University Event Management System</h1>
@@ -50,6 +51,7 @@ The **University Event Management System** is a web application designed to stre
 | **Backend** | Django + Django REST Framework | RESTful API with built-in auth and ORM |
 | **Database** | PostgreSQL | Relational database with ACID compliance |
 | **DevOps** | Docker + Docker Compose | Containerized development and deployment |
+| **Infrastructure** | Terraform | Infrastructure as code for cloud provisioning |
 | **Project Management** | Jira | Sprint planning, task tracking, and progress reporting |
 
 ---
@@ -145,6 +147,8 @@ university-event-management/
 │   ├── uml_class_diagram.svg   # Class / ER diagram
 │   └── uml_diagram.puml        # PlantUML source
 │
+├── infra/                      # Terraform infrastructure
+│   └── main.tf
 ├── docker-compose.yml          # Docker orchestration
 ├── Dockerfile.backend          # Backend container
 ├── Dockerfile.frontend         # Frontend container
