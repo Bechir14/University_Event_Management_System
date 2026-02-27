@@ -1,0 +1,24 @@
+[project]
+name = "university-event-management-backend"
+version = "0.1.0"
+description = "University Event Management System API"
+authors = [
+    {name = "bechir",email = "mebnou14@gmail.com"},
+    {name = "lemin", email = "ebnoulemin14@gmail.com"},
+    {name = "youssef" ,email = "alyousfiyousef7@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<3.15"
+dependencies = [
+    "django (>=6.0.2,<7.0.0)",
+    "djangorestframework (>=3.16.1,<4.0.0)",
+    "djangorestframework-simplejwt (>=5.5.1,<6.0.0)",
+    "psycopg2-binary (>=2.9.11,<3.0.0)",
+    "django-cors-headers (>=4.9.0,<5.0.0)",
+    "python-decouple (>=3.8,<4.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
