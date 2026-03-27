@@ -1,8 +1,17 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/React-18.x-61DAFB?style=for-the-badge&logo=react&logoColor=white" />
-  <img src="https://img.shields.io/badge/MUI-5.x-007FFF?style=for-the-badge&logo=mui&logoColor=white" />
-  <img src="https://img.shields.io/badge/Django-5.x-092E20?style=for-the-badge&logo=django&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-16-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <a href="https://github.com/Bechir14/University_Event_Management_System/actions/workflows/ci.yml">
+    <img src="https://github.com/Bechir14/University_Event_Management_System/actions/workflows/ci.yml/badge.svg" alt="CI" />
+  </a>
+  <a href="https://mebnou14.atlassian.net/jira/software/projects/KAN/boards/1">
+    <img src="https://img.shields.io/badge/Sprint%20Board-Jira-0052CC?style=flat&logo=jira&logoColor=white" alt="Sprint Board" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19.x-61DAFB?style=for-the-badge&logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/MUI-7.x-007FFF?style=for-the-badge&logo=mui&logoColor=white" />
+  <img src="https://img.shields.io/badge/Django-6.x-092E20?style=for-the-badge&logo=django&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLite-MVP-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-24.x-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/Terraform-1.x-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" />
 </p>
@@ -185,6 +194,12 @@ university-event-management/
 
 ---
 
+## 🗂️ Sprint Board
+
+Active sprint and task tracking: **[Jira Project Board](https://mebnou14.atlassian.net/jira/software/projects/KAN/boards/1)**
+
+---
+
 ## 📄 Documentation
 
 All project management documents are available in the [`/docs`](./docs) directory:
@@ -192,6 +207,9 @@ All project management documents are available in the [`/docs`](./docs) director
 | Document | Description |
 |----------|-------------|
 | [Project Overview (PDF)](./docs/Project_Overview.pdf) | Team info, timeline, budget, risk management |
+| [Database Schema](./docs/db_schema.md) | ER diagram and entity relationships |
+| [Risk Register](./docs/risk_register.md) | Identified risks, likelihood, impact, mitigation |
+| [Demo Plan](./docs/demo_plan.md) | Step-by-step live demo walkthrough script |
 | [Use Case Diagram (SVG)](./docs/uml_usecase_diagram.svg) | System use cases for all actor roles |
 | [Class Diagram (SVG)](./docs/uml_class_diagram.svg) | Entity relationships and DB schema |
 | [PlantUML Source](./docs/uml_diagram.puml) | Editable UML source file |
@@ -204,5 +222,5 @@ This project is developed as part of a university course assignment and is for e
 
 ---
 
-Last modified: 2023/10/27
+Last modified: 2026/03/27
 
