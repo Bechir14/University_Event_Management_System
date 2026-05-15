@@ -77,7 +77,7 @@ The **University Event Management System** is a web application designed to stre
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/university-event-management.git
+git clone https://github.com/Bechir14/University_Event_Management_System.git
 cd university-event-management
 
 # Start all services
